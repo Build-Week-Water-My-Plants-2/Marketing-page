@@ -134,7 +134,7 @@ table {
 }
 html,
 body {
-  background-image: url("Images/image-planet.png");
+  background-image: url("/Images/image-planet.png");
   font-family: 'Cabin', sans-serif;
 }
 h1,
@@ -182,8 +182,9 @@ h6 {
 .saying {
   display: flex;
   justify-content: flex-end;
-  height: 42rem;
-  align-items: center;
+  height: 32rem;
+  align-items: space-around;
+  margin-top: 8rem;
 }
 .saying .qoute {
   width: 50%;
