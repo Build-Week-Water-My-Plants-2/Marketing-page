@@ -1,0 +1,53 @@
+.nav-container{
+    display: flex;
+    background-color: @greyColor;
+    margin:1rem;
+    border-radius: 10px;
+
+    h1{
+        font-size: 3rem;
+        margin: 1.5rem 0rem;
+        color: @greenColor;
+        background-color: @greyColor;
+        padding: .9rem;
+        text-align: center;
+        width: 50%;
+    }
+    .flexer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 70%;
+        align-items: center;
+        margin-right: 3rem;
+
+        .kids{
+            width: 15%;
+            text-align: center;
+
+            a{
+                color:@greenColor;
+                font-size: 3rem;
+            }
+            a:hover{
+                color:@darkGreyColor;
+            }
+        }
+    }
+}
+.saying{
+    display: flex;
+    justify-content: flex-end;
+    height: 42rem;
+    align-items: center;
+    .qoute{
+        width:50%;
+        font-size: 2rem;
+        line-height: 3rem;
+        color:@greenColor;
+        .center{
+            text-align: center;
+        }
+
+    }
+}

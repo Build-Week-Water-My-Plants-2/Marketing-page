@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  font-size: 62.5%;
+  margin: 0%;
+  padding: 0%;
+  max-width: 100%;
+}
+html,
+body {
+  background-image: url("Images/image-planet.png");
+  font-family: 'Cabin', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Cabin Sketch', cursive;
+}
+.nav-container {
+  display: flex;
+  background-color: #d9d9d9;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.nav-container h1 {
+  font-size: 3rem;
+  margin: 1.5rem 0rem;
+  color: #2e6a2d;
+  background-color: #d9d9d9;
+  padding: 0.9rem;
+  text-align: center;
+  width: 50%;
+}
+.nav-container .flexer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+  align-items: center;
+  margin-right: 3rem;
+}
+.nav-container .flexer .kids {
+  width: 15%;
+  text-align: center;
+}
+.nav-container .flexer .kids a {
+  color: #2e6a2d;
+  font-size: 3rem;
+}
+.nav-container .flexer .kids a:hover {
+  color: #a3a3a3;
+}
+.saying {
+  display: flex;
+  justify-content: flex-end;
+  height: 42rem;
+  align-items: center;
+}
+.saying .qoute {
+  width: 50%;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #2e6a2d;
+}
+.saying .qoute .center {
+  text-align: center;
+}
