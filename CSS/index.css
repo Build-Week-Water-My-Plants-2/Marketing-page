@@ -195,18 +195,21 @@ h6 {
 .saying .qoute .center {
   text-align: center;
 }
-.mission {
-  height: 30vh;
+.blanket {
+  border: solid black 2px;
+}
+.blanket .mission {
   color: #2e6a2d;
   background-color: #d9d9d9;
   border-radius: 20px;
   margin: 5rem 1rem;
+  width: 80%;
 }
-.mission h1 {
+.blanket .mission h1 {
   font-size: 5rem;
   text-align: center;
 }
-.mission p {
+.blanket .mission p {
   text-align: center;
   line-height: 2rem;
 }
