@@ -3,6 +3,9 @@
     background-color: @greyColor;
     margin:1rem;
     border-radius: 10px;
+    @media @tablet{
+        flex-direction: column;
+    }
     @media @phone{
         flex-direction: column; 
         align-items: center;
@@ -18,18 +21,27 @@
         padding: .9rem;
         text-align: center;
         width: 50%;
+        @media @tablet{
+            width: 100%;
+        }
         @media @phone{
             border-radius: 10px;
             width: 100%;
             border: @greenColor 1px solid;
         }
+        
     }
     .flexer{
         .navBarFlex();
         width:100%;
+
+    
         .kids{
             width: 15%;
             text-align: center;
+            @media @tablet{
+                padding-bottom: 2rem;
+            }
             @media @phone{
             width:100%;
             padding:1rem;
@@ -38,6 +50,7 @@
             background-color: @greyColor;
             border-radius: 10px;
             border: @greenColor 1px solid;
+            
             }
 
             a{
@@ -59,6 +72,12 @@
     height: 32rem;
     align-items: space-around;
     margin-top: 8rem;
+    @media @tablet{
+        justify-content: center;
+        margin-top:23rem;
+        height:15rem;
+    
+    }
     @media @phone{
         justify-content: center; 
         height: 17rem;
@@ -69,6 +88,10 @@
         font-size: 2rem;
         line-height: 3rem;
         color:@greenColor;
+        @media @tablet{
+            width: 100%;
+            text-align: center;
+        }
         @media @phone{
             width: 80%;
         }
@@ -79,7 +102,7 @@
                     display:block;
                     border-radius: 10px;
                     border:@greenColor 1px solid;
-                    margin-top: -6rem;
+                    margin-top: -20rem;
                     margin-bottom: 2rem;
                 }
             }
