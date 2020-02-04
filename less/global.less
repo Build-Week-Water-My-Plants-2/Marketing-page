@@ -10,6 +10,10 @@
  body {
     background-image:url("/Images/image-planet.png");
     font-family: @bodyFonts;
+    @media @phone{
+        background-image: none;
+        background-color: white;
+    }
     
 }
 .about-page{

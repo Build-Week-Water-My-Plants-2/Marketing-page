@@ -6,6 +6,11 @@
         margin: 5rem 1rem;
         padding: 1rem;
         
+        @media @phone{
+            margin-top: 1.5rem;
+            padding-bottom: 0rem;
+        }
+        
         
         h1{ 
             font-size: 5rem;
@@ -19,13 +24,10 @@
     }   
 }
 .container{
-    display:flex;
-    flex-wrap: wrap ;
-    max-width: 100%;
-    align-items: space-evenly;
-    color: @greenColor;
-    margin: 1rem;
-    justify-content: space-around;
+    .aboutPageFlexPhoto();
+    @media @phone{
+        margin: .5rem;
+    }
     .box{
         margin:1.5rem;
         h2{
@@ -34,6 +36,7 @@
             padding: 1rem;
             background-color: @greyColor;
             border-radius: 10px;
+            
         }
     }
 
@@ -42,6 +45,9 @@
         background: linear-gradient(to right, @greyColor, @greenColor);
         border-radius: 10px;   
         padding: 1rem;
+        @media @phone{
+            width:100%;
+        }
 
 
         .circle{
@@ -53,12 +59,19 @@
     }
     .box2, .box4, .box6, .box8, .box10, .box12, .box14, .box16{
         width:60%;
+        @media @phone{
+            width:100%;
+        }
 
         .list{
             line-height: 4rem;
             font-size: 2rem;
             padding:2rem;
             text-align: center;
+            @media @phone{
+                font-size: 1.5rem;
+            }
+            
         }
         .button{
             text-align: center;
@@ -69,6 +82,10 @@
             width:15rem;   
             border-radius: 10px;
             margin-left: 19rem; 
+            @media @phone{
+                width:100%;
+                margin:0rem;
+            }
 
             a{
                 text-decoration: none;

@@ -3,6 +3,12 @@
     background-color: @greyColor;
     margin:1rem;
     border-radius: 10px;
+    @media @phone{
+        flex-direction: column; 
+        align-items: center;
+        background-color:white;
+    
+    }
 
     h1{
         font-size: 3rem;
@@ -12,18 +18,27 @@
         padding: .9rem;
         text-align: center;
         width: 50%;
+        @media @phone{
+            border-radius: 10px;
+            width: 100%;
+            border: @greenColor 1px solid;
+        }
     }
     .flexer{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        width: 70%;
-        align-items: center;
-        margin-right: 3rem;
-
+        .navBarFlex();
+        width:100%;
         .kids{
             width: 15%;
             text-align: center;
+            @media @phone{
+            width:100%;
+            padding:1rem;
+            align-items: space-around;
+            margin:1rem 0rem 1rem 3rem;
+            background-color: @greyColor;
+            border-radius: 10px;
+            border: @greenColor 1px solid;
+            }
 
             a{
                 color:@greenColor;

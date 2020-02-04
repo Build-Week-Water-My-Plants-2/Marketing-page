@@ -137,6 +137,12 @@ body {
   background-image: url("/Images/image-planet.png");
   font-family: 'Cabin', sans-serif;
 }
+@media (max-width: 500px) {
+  body {
+    background-image: none;
+    background-color: white;
+  }
+}
 .about-page {
   background-image: none;
   background-color: white;
@@ -155,6 +161,13 @@ h6 {
   margin: 1rem;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+}
 .nav-container h1 {
   font-size: 3rem;
   margin: 1.5rem 0rem;
@@ -164,6 +177,13 @@ h6 {
   text-align: center;
   width: 50%;
 }
+@media (max-width: 500px) {
+  .nav-container h1 {
+    border-radius: 10px;
+    width: 100%;
+    border: #2e6a2d 1px solid;
+  }
+}
 .nav-container .flexer {
   display: flex;
   flex-wrap: wrap;
@@ -171,10 +191,22 @@ h6 {
   width: 70%;
   align-items: center;
   margin-right: 3rem;
+  width: 100%;
 }
 .nav-container .flexer .kids {
   width: 15%;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .nav-container .flexer .kids {
+    width: 100%;
+    padding: 1rem;
+    align-items: space-around;
+    margin: 1rem 0rem 1rem 3rem;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    border: #2e6a2d 1px solid;
+  }
 }
 .nav-container .flexer .kids a {
   color: #2e6a2d;
@@ -205,6 +237,12 @@ h6 {
   margin: 5rem 1rem;
   padding: 1rem;
 }
+@media (max-width: 500px) {
+  .blanket .mission {
+    margin-top: 1.5rem;
+    padding-bottom: 0rem;
+  }
+}
 .blanket .mission h1 {
   font-size: 5rem;
   padding-bottom: 1.3rem;
@@ -222,6 +260,11 @@ h6 {
   color: #2e6a2d;
   margin: 1rem;
   justify-content: space-around;
+}
+@media (max-width: 500px) {
+  .container {
+    margin: 0.5rem;
+  }
 }
 .container .box {
   margin: 1.5rem;
@@ -246,6 +289,18 @@ h6 {
   border-radius: 10px;
   padding: 1rem;
 }
+@media (max-width: 500px) {
+  .container .box1,
+  .container .box3,
+  .container .box5,
+  .container .box7,
+  .container .box9,
+  .container .box11,
+  .container .box13,
+  .container .box15 {
+    width: 100%;
+  }
+}
 .container .box1 .circle,
 .container .box3 .circle,
 .container .box5 .circle,
@@ -266,6 +321,18 @@ h6 {
 .container .box16 {
   width: 60%;
 }
+@media (max-width: 500px) {
+  .container .box2,
+  .container .box4,
+  .container .box6,
+  .container .box8,
+  .container .box10,
+  .container .box12,
+  .container .box14,
+  .container .box16 {
+    width: 100%;
+  }
+}
 .container .box2 .list,
 .container .box4 .list,
 .container .box6 .list,
@@ -278,6 +345,18 @@ h6 {
   font-size: 2rem;
   padding: 2rem;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .container .box2 .list,
+  .container .box4 .list,
+  .container .box6 .list,
+  .container .box8 .list,
+  .container .box10 .list,
+  .container .box12 .list,
+  .container .box14 .list,
+  .container .box16 .list {
+    font-size: 1.5rem;
+  }
 }
 .container .box2 .button,
 .container .box4 .button,
@@ -295,6 +374,19 @@ h6 {
   width: 15rem;
   border-radius: 10px;
   margin-left: 19rem;
+}
+@media (max-width: 500px) {
+  .container .box2 .button,
+  .container .box4 .button,
+  .container .box6 .button,
+  .container .box8 .button,
+  .container .box10 .button,
+  .container .box12 .button,
+  .container .box14 .button,
+  .container .box16 .button {
+    width: 100%;
+    margin: 0rem;
+  }
 }
 .container .box2 .button a,
 .container .box4 .button a,
