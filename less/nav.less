@@ -59,12 +59,31 @@
     height: 32rem;
     align-items: space-around;
     margin-top: 8rem;
+    @media @phone{
+        justify-content: center; 
+        height: 17rem;
+    }
 
     .qoute{
         width:50%;
         font-size: 2rem;
         line-height: 3rem;
         color:@greenColor;
+        @media @phone{
+            width: 80%;
+        }
+        .displaynone{
+            img{
+                display:none;
+                @media @phone{
+                    display:block;
+                    border-radius: 10px;
+                    border:@greenColor 1px solid;
+                    margin-top: -6rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
         .center{
             text-align: center;
         }

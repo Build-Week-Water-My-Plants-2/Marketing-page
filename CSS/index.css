@@ -222,11 +222,34 @@ h6 {
   align-items: space-around;
   margin-top: 8rem;
 }
+@media (max-width: 500px) {
+  .saying {
+    justify-content: center;
+    height: 17rem;
+  }
+}
 .saying .qoute {
   width: 50%;
   font-size: 2rem;
   line-height: 3rem;
   color: #2e6a2d;
+}
+@media (max-width: 500px) {
+  .saying .qoute {
+    width: 80%;
+  }
+}
+.saying .qoute .displaynone img {
+  display: none;
+}
+@media (max-width: 500px) {
+  .saying .qoute .displaynone img {
+    display: block;
+    border-radius: 10px;
+    border: #2e6a2d 1px solid;
+    margin-top: -6rem;
+    margin-bottom: 2rem;
+  }
 }
 .saying .qoute .center {
   text-align: center;
@@ -518,4 +541,9 @@ h6 {
   text-align: center;
   padding: 3rem 0rem;
   color: #2e6a2d;
+}
+@media (max-width: 500px) {
+  .copy2 {
+    padding: 6rem 0rem 3rem 0rem;
+  }
 }
