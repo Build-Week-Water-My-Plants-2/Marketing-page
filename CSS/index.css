@@ -269,12 +269,117 @@ h6 {
 .container .box {
   margin: 1.5rem;
 }
+@media (max-width: 500px) {
+  .container .box {
+    order: 9999;
+  }
+}
 .container .box h2 {
   font-size: 3rem;
   text-align: center;
   padding: 1rem;
   background-color: #d9d9d9;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .container .imagematt {
+    order: 1;
+  }
+}
+@media (max-width: 500px) {
+  .container .textmatt {
+    order: 2;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagejesus {
+    order: 3;
+  }
+}
+@media (max-width: 500px) {
+  .container .textjesus {
+    order: 4;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagearash {
+    order: 5 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .textarash {
+    order: 6 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagetim {
+    order: 7 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .texttim {
+    order: 8 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagerachel {
+    order: 9;
+  }
+}
+@media (max-width: 500px) {
+  .container .textrachel {
+    order: 10 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagewes {
+    order: 11 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .textwes {
+    order: 12 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagedylan {
+    order: 12 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .textdylan {
+    order: 13 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagemattc {
+    order: 14;
+  }
+}
+@media (max-width: 500px) {
+  .container .textmattc {
+    order: 15 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagethomas {
+    order: 16 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .textthomas {
+    order: 17 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .imagejorge {
+    order: 18 ;
+  }
+}
+@media (max-width: 500px) {
+  .container .textjorge {
+    order: 19 ;
+  }
 }
 .container .box1,
 .container .box3,
@@ -355,7 +460,7 @@ h6 {
   .container .box12 .list,
   .container .box14 .list,
   .container .box16 .list {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 .container .box2 .button,
