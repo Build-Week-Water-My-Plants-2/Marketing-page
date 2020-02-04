@@ -132,10 +132,13 @@ table {
   padding: 0%;
   max-width: 100%;
 }
-html,
 body {
   background-image: url("/Images/image-planet.png");
   font-family: 'Cabin', sans-serif;
+}
+.about-page {
+  background-image: none;
+  background-color: linear-gradient(to right, white, #e6e6e6);
 }
 h1,
 h2,
@@ -200,9 +203,9 @@ h6 {
 }
 .blanket .mission {
   color: #2e6a2d;
-  background-color: #d9d9d9;
   border-radius: 20px;
   margin: 5rem 1rem;
+  padding: 2rem;
 }
 .blanket .mission h1 {
   font-size: 5rem;
@@ -219,10 +222,15 @@ h6 {
   align-items: space-evenly;
   color: #2e6a2d;
   margin: 1rem;
+  justify-content: space-evenly;
+}
+.container .box {
+  margin: 1rem;
 }
 .container .box h2 {
   font-size: 3rem;
   text-align: center;
+  padding-top: 1rem;
 }
 .container .box1,
 .container .box3,
@@ -253,6 +261,58 @@ h6 {
 .container .box14,
 .container .box16 {
   width: 60%;
-  border: black solid 3px;
-  background-color: #d9d9d9;
+}
+.container .box2 .list,
+.container .box4 .list,
+.container .box6 .list,
+.container .box8 .list,
+.container .box10 .list,
+.container .box12 .list,
+.container .box14 .list,
+.container .box16 .list {
+  line-height: 4rem;
+  font-size: 2rem;
+  padding: 2rem;
+  text-align: center;
+}
+.container .box2 .button,
+.container .box4 .button,
+.container .box6 .button,
+.container .box8 .button,
+.container .box10 .button,
+.container .box12 .button,
+.container .box14 .button,
+.container .box16 .button {
+  text-align: center;
+  margin-top: 1rem;
+  border: #2e6a2d solid 2px;
+  padding: 1.5rem;
+  width: 10rem;
+  border-radius: 10px;
+}
+.container .box2 .button a,
+.container .box4 .button a,
+.container .box6 .button a,
+.container .box8 .button a,
+.container .box10 .button a,
+.container .box12 .button a,
+.container .box14 .button a,
+.container .box16 .button a {
+  text-decoration: none;
+  color: #2e6a2d;
+}
+.container .box2 .button a:hover,
+.container .box4 .button a:hover,
+.container .box6 .button a:hover,
+.container .box8 .button a:hover,
+.container .box10 .button a:hover,
+.container .box12 .button a:hover,
+.container .box14 .button a:hover,
+.container .box16 .button a:hover {
+  color: #a3a3a3;
+}
+.copy {
+  text-align: center;
+  padding: 3rem 0rem 3rem 0rem;
+  color: #2e6a2d;
 }

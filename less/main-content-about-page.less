@@ -2,9 +2,9 @@
     border: solid black 2px;
     .mission{
         color:@greenColor;
-        background-color: @greyColor;
         border-radius: 20px;
         margin: 5rem 1rem;
+        padding: 2rem;
         
         
         h1{ 
@@ -24,10 +24,13 @@
     align-items: space-evenly;
     color: @greenColor;
     margin: 1rem;
+    justify-content: space-evenly;
     .box{
+        margin:1rem;
         h2{
             font-size: 3rem;
             text-align: center;
+            padding-top: 1rem;
         }
     }
 
@@ -42,7 +45,34 @@
     }
     .box2, .box4, .box6, .box8, .box10, .box12, .box14, .box16{
         width:60%;
-        border:black solid 3px;
-        background-color: @greyColor;
+
+        .list{
+            line-height: 4rem;
+            font-size: 2rem;
+            padding:2rem;
+            text-align: center;
+        }
+        .button{
+            text-align: center;
+            margin-top: 1rem;
+            border:@greenColor solid 2px;
+            padding: 1.5rem;
+            width:10rem;   
+            border-radius: 10px; 
+
+            a{
+                text-decoration: none;
+                color: @greenColor;
+            }
+            a:hover{
+                color: @darkGreyColor;
+            }
+        }
+
     }
+}
+.copy{
+    text-align: center;
+    padding: 3rem 0rem 3rem 0rem;
+    color:@greenColor;
 }
