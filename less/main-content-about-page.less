@@ -1,14 +1,15 @@
 .blanket{
-    border: solid black 2px;
+
     .mission{
         color:@greenColor;
         border-radius: 20px;
         margin: 5rem 1rem;
-        padding: 2rem;
+        padding: 1rem;
         
         
         h1{ 
             font-size: 5rem;
+            padding-bottom: 1.3rem;
             text-align: center;
         }
         p{
@@ -24,21 +25,28 @@
     align-items: space-evenly;
     color: @greenColor;
     margin: 1rem;
-    justify-content: space-evenly;
+    justify-content: space-around;
     .box{
-        margin:1rem;
+        margin:1.5rem;
         h2{
             font-size: 3rem;
             text-align: center;
-            padding-top: 1rem;
+            padding: 1rem;
+            background-color: @greyColor;
+            border-radius: 10px;
         }
     }
 
     .box1, .box3, .box5, .box7, .box9, .box11, .box13, .box15{
-        width:30%;
+        width:30%;            
+        background: linear-gradient(to right, @greyColor, @greenColor);
+        border-radius: 10px;   
+        padding: 1rem;
+
 
         .circle{
             border-radius: 200px;
+
         }
 
     
@@ -56,13 +64,15 @@
             text-align: center;
             margin-top: 1rem;
             border:@greenColor solid 2px;
+            background:  @greenColor;
             padding: 1.5rem;
-            width:10rem;   
-            border-radius: 10px; 
+            width:15rem;   
+            border-radius: 10px;
+            margin-left: 19rem; 
 
             a{
                 text-decoration: none;
-                color: @greenColor;
+                color: white;
             }
             a:hover{
                 color: @darkGreyColor;
@@ -73,6 +83,6 @@
 }
 .copy{
     text-align: center;
-    padding: 3rem 0rem 3rem 0rem;
+    padding: 3rem 0rem;
     color:@greenColor;
 }

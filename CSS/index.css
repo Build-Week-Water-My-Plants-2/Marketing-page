@@ -131,6 +131,7 @@ table {
   margin: 0%;
   padding: 0%;
   max-width: 100%;
+  box-sizing: border-box;
 }
 body {
   background-image: url("/Images/image-planet.png");
@@ -138,7 +139,7 @@ body {
 }
 .about-page {
   background-image: none;
-  background-color: linear-gradient(to right, white, #e6e6e6);
+  background-color: white;
 }
 h1,
 h2,
@@ -198,17 +199,15 @@ h6 {
 .saying .qoute .center {
   text-align: center;
 }
-.blanket {
-  border: solid black 2px;
-}
 .blanket .mission {
   color: #2e6a2d;
   border-radius: 20px;
   margin: 5rem 1rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 .blanket .mission h1 {
   font-size: 5rem;
+  padding-bottom: 1.3rem;
   text-align: center;
 }
 .blanket .mission p {
@@ -222,15 +221,17 @@ h6 {
   align-items: space-evenly;
   color: #2e6a2d;
   margin: 1rem;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .container .box {
-  margin: 1rem;
+  margin: 1.5rem;
 }
 .container .box h2 {
   font-size: 3rem;
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem;
+  background-color: #d9d9d9;
+  border-radius: 10px;
 }
 .container .box1,
 .container .box3,
@@ -241,6 +242,9 @@ h6 {
 .container .box13,
 .container .box15 {
   width: 30%;
+  background: linear-gradient(to right, #d9d9d9, #2e6a2d);
+  border-radius: 10px;
+  padding: 1rem;
 }
 .container .box1 .circle,
 .container .box3 .circle,
@@ -286,9 +290,11 @@ h6 {
   text-align: center;
   margin-top: 1rem;
   border: #2e6a2d solid 2px;
+  background: #2e6a2d;
   padding: 1.5rem;
-  width: 10rem;
+  width: 15rem;
   border-radius: 10px;
+  margin-left: 19rem;
 }
 .container .box2 .button a,
 .container .box4 .button a,
@@ -299,7 +305,7 @@ h6 {
 .container .box14 .button a,
 .container .box16 .button a {
   text-decoration: none;
-  color: #2e6a2d;
+  color: white;
 }
 .container .box2 .button a:hover,
 .container .box4 .button a:hover,
@@ -313,6 +319,6 @@ h6 {
 }
 .copy {
   text-align: center;
-  padding: 3rem 0rem 3rem 0rem;
+  padding: 3rem 0rem;
   color: #2e6a2d;
 }
