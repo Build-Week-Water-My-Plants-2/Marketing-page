@@ -203,7 +203,6 @@ h6 {
   background-color: #d9d9d9;
   border-radius: 20px;
   margin: 5rem 1rem;
-  width: 80%;
 }
 .blanket .mission h1 {
   font-size: 5rem;
@@ -212,4 +211,48 @@ h6 {
 .blanket .mission p {
   text-align: center;
   line-height: 2rem;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap ;
+  max-width: 100%;
+  align-items: space-evenly;
+  color: #2e6a2d;
+  margin: 1rem;
+}
+.container .box h2 {
+  font-size: 3rem;
+  text-align: center;
+}
+.container .box1,
+.container .box3,
+.container .box5,
+.container .box7,
+.container .box9,
+.container .box11,
+.container .box13,
+.container .box15 {
+  width: 30%;
+}
+.container .box1 .circle,
+.container .box3 .circle,
+.container .box5 .circle,
+.container .box7 .circle,
+.container .box9 .circle,
+.container .box11 .circle,
+.container .box13 .circle,
+.container .box15 .circle {
+  border-radius: 200px;
+}
+.container .box2,
+.container .box4,
+.container .box6,
+.container .box8,
+.container .box10,
+.container .box12,
+.container .box14,
+.container .box16 {
+  width: 60%;
+  border: black solid 3px;
+  background-color: #d9d9d9;
 }

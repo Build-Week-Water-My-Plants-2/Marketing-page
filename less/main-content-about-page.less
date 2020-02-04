@@ -5,7 +5,6 @@
         background-color: @greyColor;
         border-radius: 20px;
         margin: 5rem 1rem;
-        width: 80%;
         
         
         h1{ 
@@ -17,4 +16,33 @@
             line-height: 2rem;
         }
     }   
+}
+.container{
+    display:flex;
+    flex-wrap: wrap ;
+    max-width: 100%;
+    align-items: space-evenly;
+    color: @greenColor;
+    margin: 1rem;
+    .box{
+        h2{
+            font-size: 3rem;
+            text-align: center;
+        }
+    }
+
+    .box1, .box3, .box5, .box7, .box9, .box11, .box13, .box15{
+        width:30%;
+
+        .circle{
+            border-radius: 200px;
+        }
+
+    
+    }
+    .box2, .box4, .box6, .box8, .box10, .box12, .box14, .box16{
+        width:60%;
+        border:black solid 3px;
+        background-color: @greyColor;
+    }
 }
