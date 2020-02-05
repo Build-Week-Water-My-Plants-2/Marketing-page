@@ -1,0 +1,123 @@
+.nav-container{
+    display: flex;
+    background-color: @greyColor;
+    margin:1rem;
+    border-radius: 10px;
+
+    @media @tablet{
+        flex-direction: column;
+    }//closes out the tablet view media for nav-container class 
+
+    @media @phone{
+        flex-direction: column; 
+        align-items: center;
+        background-color:white;
+    }//closes out the phone media view for the nav-container
+
+    h1{
+        font-size: 3rem;
+        margin: 1.5rem 0rem;
+        color: @greenColor;
+        background-color: @greyColor;
+        padding: .9rem;
+        text-align: center;
+        width: 50%;
+
+        @media @tablet{
+            width: 100%;
+        }//closes out the tablet media view for h1 element
+
+        @media @phone{
+            border-radius: 10px;
+            width: 100%;
+            border: @greenColor 1px solid;
+        }//cloes out the phone view for the h1 element
+        
+    }//closes out the h1 element
+    .flexer{
+        .navBarFlex();
+        width:100%;
+
+        .kids{
+            width: 15%;
+            text-align: center;
+
+            @media @tablet{
+                padding-bottom: 2rem;
+            }//closes out the kid class media at tablet
+
+            @media @phone{
+            width:100%;
+            padding:1rem;
+            align-items: space-around;
+            margin:1rem 0rem 1rem 3rem;
+            background-color: @greyColor;
+            border-radius: 10px;
+            border: @greenColor 1px solid;
+            }//closes out the media phone view for kid class
+
+            a{
+                color:@greenColor;
+                font-size: 3rem;
+            }//closes out the anchor element
+
+            a:hover{
+                color:@darkGreyColor;
+            }//closes out the anchor hover element
+        }//closes out the kids class
+    }//closes out the flexer class
+}//closes out the nav-container class
+
+.saying{
+    display: flex;
+    justify-content: flex-end;
+    height: 32rem;
+    align-items: space-around;
+    margin-top: 8rem;
+
+    @media @tablet{
+        justify-content: center;
+        margin-top:23rem;
+        height:15rem;
+    }//closes out the media tablet view for saying class
+
+    @media @phone{
+        justify-content: center; 
+        height: 17rem;
+    }// closes out the media phone view for saying
+
+    .qoute{
+        width:50%;
+        font-size: 2rem;
+        line-height: 3rem;
+        color:@greenColor;
+
+        @media @tablet{
+            width: 100%;
+            text-align: center;
+        }//closes out the media tablet view for quote
+
+        @media @phone{
+            width: 80%;
+        }//closes out the media phone view for quote
+
+        .displaynone{
+
+            img{
+                display:none;
+
+                @media @phone{
+                    display:block;
+                    border-radius: 10px;
+                    border:@greenColor 1px solid;
+                    margin-top: -20rem;
+                    margin-bottom: 2rem;
+                }//closes out the media phone view for img element
+            }//closes out the img element
+        }//closes out the display none class
+        .center{
+            text-align: center;
+        }//closes outt he center class
+
+    }//closes outt he qoute class
+}//closes out the saying class
