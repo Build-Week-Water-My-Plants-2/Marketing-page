@@ -442,6 +442,16 @@ h6 {
     order: 19 ;
   }
 }
+@media (max-width: 500px) {
+  .container .imagerick {
+    order: 20;
+  }
+}
+@media (max-width: 500px) {
+  .container .textrick {
+    order: 21;
+  }
+}
 .container .box1,
 .container .box3,
 .container .box5,
