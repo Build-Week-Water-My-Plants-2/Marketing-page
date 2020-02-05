@@ -33,6 +33,11 @@
 
     .box{
         margin:1.5rem;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        flex-wrap: wrap;
+
         @media @phone{
             order:9999;
         }//closes out box class
@@ -43,6 +48,7 @@
             padding: 1rem;
             background-color: @greyColor;
             border-radius: 10px;
+            width: 100%;
             @media @tablet{
                 font-size: 1.8rem;
               }//closes out tablet view for h2 element    
@@ -159,6 +165,10 @@
         background: linear-gradient(to right, @greyColor, @greenColor);
         border-radius: 10px;   
         padding: 1rem;
+        display:flex;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
 
         @media @tablet{
             width:35%;
@@ -170,6 +180,7 @@
        
         .circle{
             border-radius: 250px;
+
         }//closes out the circle class
     }//close out the box1-15 selector odd
 
@@ -204,16 +215,15 @@
         .button{
             text-align: center;
             margin-top: 1rem;
+            margin-bottom: 1rem;
             border:@greenColor solid 2px;
             background:  @greenColor;
             padding: 1.5rem;
             width:15rem;   
             border-radius: 10px;
-            margin-left: 19rem; 
 
             @media @tablet{
                 margin:0rem;
-                margin-left: 4rem;
                 padding: 1rem;
             }//closes out the media view for the tablet view button class
 
@@ -225,6 +235,7 @@
             a{
                 text-decoration: none;
                 color: white;
+                text-align: center;
             }//close out the anchor element
 
             a:hover{

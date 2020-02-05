@@ -319,6 +319,10 @@ h6 {
 }
 .container .box {
   margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
 }
 @media (max-width: 500px) {
   .container .box {
@@ -331,6 +335,7 @@ h6 {
   padding: 1rem;
   background-color: #d9d9d9;
   border-radius: 10px;
+  width: 100%;
 }
 @media (max-width: 800px) {
   .container .box h2 {
@@ -449,6 +454,10 @@ h6 {
   background: linear-gradient(to right, #d9d9d9, #2e6a2d);
   border-radius: 10px;
   padding: 1rem;
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 800px) {
   .container .box1,
@@ -567,12 +576,12 @@ h6 {
 .container .box16 .button {
   text-align: center;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   border: #2e6a2d solid 2px;
   background: #2e6a2d;
   padding: 1.5rem;
   width: 15rem;
   border-radius: 10px;
-  margin-left: 19rem;
 }
 @media (max-width: 800px) {
   .container .box2 .button,
@@ -584,7 +593,6 @@ h6 {
   .container .box14 .button,
   .container .box16 .button {
     margin: 0rem;
-    margin-left: 4rem;
     padding: 1rem;
   }
 }
@@ -611,6 +619,7 @@ h6 {
 .container .box16 .button a {
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 .container .box2 .button a:hover,
 .container .box4 .button a:hover,
