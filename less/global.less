@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Courgette&display=swap');
+//  Body Container
+.container {
+    margin: 0 5%;
+}
+
+// Generic tags
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: @Light-Gray;
+}
+
+p, li{
+    font-family: 'Cantarell', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: @Dark-Gray;
+    &:visited{
+        color: @Dark-Green;
+    }
+    &:hover {
+        color: @Light-Green;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,i {
+    font-weight: bold;
+    font-family: 'Courgette', cursive;
+    &:hover{
+        color: @Light-Green;
+    }
+}

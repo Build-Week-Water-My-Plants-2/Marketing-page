@@ -1,0 +1,89 @@
+//about page styling
+//DESKTOP VIEW
+@media @desktop {
+    .header-content-about {
+        background: @Light-Green url("../imgs/nature.jfif")no-repeat fixed center; 
+        .flexwrap();
+        margin: 2em;
+        h1 {
+        margin-top: 2em;
+        font-size: 2em;
+        padding: 1em;
+        }
+        p {
+        margin-top: 2em;
+        padding: 2em;
+        .lhfs(2em, 1.2em);
+        }
+    }
+
+    .thesquad{
+        .flexwrap();
+        justify-content: center;
+        margin: 2em;
+        .sqaudimgcontainer{
+            width: 50%;
+            .squadphotos {
+                margin-top: 4em;
+                border-radius: 10em;
+                width: 70%;
+            }
+        }
+        .sqaudtextcontainer{
+            width: 50%;
+            margin-top: 2em;
+            .lhfs(2em, 2em);
+            a {
+                background-color: @Mid-Gray;
+                border-radius: 1.5em;
+                padding: 0.3em;
+                margin: 2.5em;
+            }
+        }
+    }
+
+    .squad-inverse{
+        flex-direction: row-reverse;
+    }
+}
+//TABLET VIEW
+@media @tablet {
+    .header-content-about {
+        h1 {
+        font-size: 1.5em;
+        margin-left: 3em;
+        margin-right: 3em;
+        padding: 0;
+        }
+        p {
+        margin-left: 3em;
+        margin-right: 3em;
+        padding: 2em;
+        .lhfs(2em, 1em);
+        }
+    }
+
+    .thesquad{
+        .sqaudimgcontainer{
+            .squadphotos {
+                margin-top: 1em;
+            }
+        }
+        .sqaudtextcontainer{
+            .lhfs(2em, 1em);
+        }
+    }
+}
+//MOBILE VIEW
+@media @phone {
+    .thesquad{
+    margin: 2em 2em 2em 4em;
+    flex-direction: column;
+        .sqaudimgcontainer {
+            width: 100%;
+        }
+        .sqaudtextcontainer {
+            width: 100%;
+        }
+    }
+}
