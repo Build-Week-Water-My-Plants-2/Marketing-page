@@ -452,14 +452,7 @@ h6 {
     order: 21;
   }
 }
-.container .box1,
-.container .box3,
-.container .box5,
-.container .box7,
-.container .box9,
-.container .box11,
-.container .box13,
-.container .box15 {
+.container .box1 {
   width: 30%;
   background: linear-gradient(to right, #d9d9d9, #2e6a2d);
   border-radius: 10px;
@@ -470,120 +463,50 @@ h6 {
   align-items: center;
 }
 @media (max-width: 800px) {
-  .container .box1,
-  .container .box3,
-  .container .box5,
-  .container .box7,
-  .container .box9,
-  .container .box11,
-  .container .box13,
-  .container .box15 {
+  .container .box1 {
     width: 35%;
   }
 }
 @media (max-width: 500px) {
-  .container .box1,
-  .container .box3,
-  .container .box5,
-  .container .box7,
-  .container .box9,
-  .container .box11,
-  .container .box13,
-  .container .box15 {
+  .container .box1 {
     width: 100%;
   }
 }
-.container .box1 .circle,
-.container .box3 .circle,
-.container .box5 .circle,
-.container .box7 .circle,
-.container .box9 .circle,
-.container .box11 .circle,
-.container .box13 .circle,
-.container .box15 .circle {
+.container .box1 .circle {
   border-radius: 250px;
 }
-.container .box2,
-.container .box4,
-.container .box6,
-.container .box8,
-.container .box10,
-.container .box12,
-.container .box14,
-.container .box16 {
+.container .box2 {
   width: 60%;
 }
 @media (max-width: 800px) {
-  .container .box2,
-  .container .box4,
-  .container .box6,
-  .container .box8,
-  .container .box10,
-  .container .box12,
-  .container .box14,
-  .container .box16 {
+  .container .box2 {
     width: 50%;
   }
 }
 @media (max-width: 500px) {
-  .container .box2,
-  .container .box4,
-  .container .box6,
-  .container .box8,
-  .container .box10,
-  .container .box12,
-  .container .box14,
-  .container .box16 {
+  .container .box2 {
     width: 100%;
   }
 }
-.container .box2 .list,
-.container .box4 .list,
-.container .box6 .list,
-.container .box8 .list,
-.container .box10 .list,
-.container .box12 .list,
-.container .box14 .list,
-.container .box16 .list {
+.container .box2 .list {
   line-height: 4rem;
   font-size: 2rem;
   padding: 2rem;
   text-align: center;
 }
 @media (max-width: 800px) {
-  .container .box2 .list,
-  .container .box4 .list,
-  .container .box6 .list,
-  .container .box8 .list,
-  .container .box10 .list,
-  .container .box12 .list,
-  .container .box14 .list,
-  .container .box16 .list {
+  .container .box2 .list {
     font-size: 1.3rem;
     line-height: 1.8rem;
   }
 }
 @media (max-width: 500px) {
-  .container .box2 .list,
-  .container .box4 .list,
-  .container .box6 .list,
-  .container .box8 .list,
-  .container .box10 .list,
-  .container .box12 .list,
-  .container .box14 .list,
-  .container .box16 .list {
+  .container .box2 .list {
     font-size: 1.4rem;
     line-height: 2rem;
   }
 }
-.container .box2 .button,
-.container .box4 .button,
-.container .box6 .button,
-.container .box8 .button,
-.container .box10 .button,
-.container .box12 .button,
-.container .box14 .button,
-.container .box16 .button {
+.container .box2 .button {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -594,51 +517,23 @@ h6 {
   border-radius: 10px;
 }
 @media (max-width: 800px) {
-  .container .box2 .button,
-  .container .box4 .button,
-  .container .box6 .button,
-  .container .box8 .button,
-  .container .box10 .button,
-  .container .box12 .button,
-  .container .box14 .button,
-  .container .box16 .button {
+  .container .box2 .button {
     margin: 0rem;
     padding: 1rem;
   }
 }
 @media (max-width: 500px) {
-  .container .box2 .button,
-  .container .box4 .button,
-  .container .box6 .button,
-  .container .box8 .button,
-  .container .box10 .button,
-  .container .box12 .button,
-  .container .box14 .button,
-  .container .box16 .button {
+  .container .box2 .button {
     width: 100%;
     margin: 0rem;
   }
 }
-.container .box2 .button a,
-.container .box4 .button a,
-.container .box6 .button a,
-.container .box8 .button a,
-.container .box10 .button a,
-.container .box12 .button a,
-.container .box14 .button a,
-.container .box16 .button a {
+.container .box2 .button a {
   text-decoration: none;
   color: white;
   text-align: center;
 }
-.container .box2 .button a:hover,
-.container .box4 .button a:hover,
-.container .box6 .button a:hover,
-.container .box8 .button a:hover,
-.container .box10 .button a:hover,
-.container .box12 .button a:hover,
-.container .box14 .button a:hover,
-.container .box16 .button a:hover {
+.container .box2 .button a:hover {
   color: #a3a3a3;
 }
 .copy {
